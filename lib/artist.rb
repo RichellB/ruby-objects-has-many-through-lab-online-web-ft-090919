@@ -16,4 +16,6 @@ class Artist
     self.name = name 
     self.genre = genre 
   end
+  
+  def songs
 end
