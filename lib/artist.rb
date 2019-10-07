@@ -1,7 +1,13 @@
 class Artist 
   attr_accessor
+  @@all = []
+  
   
   def initialize 
-  end
+    @@all << self 
+  end 
   
+  def self.all 
+    @@all 
+  end
 end
